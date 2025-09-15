@@ -1,0 +1,179 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AditiErande — Portfolio</title>
+  <meta name="description" content="BCA Graduate | Aspiring IT Professional | Upskilling in Programming & Development | Open to Internships & Entry-Level Roles">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root{--brand:#0d6efd}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+    .hero{background: linear-gradient(135deg, rgba(13,110,253,0.06), rgba(13,110,253,0.02)); padding:60px 0}
+    .card-project{transition: transform .18s ease, box-shadow .18s ease}
+    .card-project:hover{transform: translateY(-6px); box-shadow:0 10px 30px rgba(13,110,253,0.08)}
+    .skill-badge{border-radius: 999px; padding:6px 10px; border:1px solid #e9ecef; margin:4px}
+    footer{padding:24px 0; border-top:1px solid #f1f1f1; margin-top:40px}
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Aditi Erande</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <h1 class="display-6">Hi, I’m <span class="text-primary">Aditi Erande</span></h1>
+        <p class="lead">I’m a recent BCA graduate from SNDT University with a strong interest in programming, software development, and cyber security. Currently, I am upskilling in core C programming, and MySQL
+
+I have completed a dynamic web development project and understand how to work with databases and server-side technologies. I enjoy solving logic problems, writing clean code, and learning new technologies. I'm actively looking for an internship or entry-level position in IT support, software development to apply my skills and grow further in the tech field.
+
+#OpenToWork | #BCAGraduate | #ITFresher | #SoftwareDevelopment</p>
+        <p>
+          <a href="GITHUB_LINK" class="btn btn-outline-primary me-2" target="_blank">GitHub</a>
+          <a href="LINKEDIN_LINK" class="btn btn-primary" target="_blank">Connect on LinkedIn</a>
+        </p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="C:\Users\91750\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-02-14 at 2.19.51 PM.jpeg" alt="profile" class="img-fluid rounded-circle shadow-sm" style="max-width:220px">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>About Me</h2>
+        <p>I’m a recent BCA graduate from SNDT University with a strong interest in programming, software development, and cyber security. Currently, I am upskilling in core C programming, and MySQL
+
+I have completed a dynamic web development project and understand how to work with databases and server-side technologies. I enjoy solving logic problems, writing clean code, and learning new technologies. I'm actively looking for an internship or entry-level position in IT support, software development to apply my skills and grow further in the tech field.
+
+#OpenToWork | #BCAGraduate | #ITFresher | #SoftwareDevelopment</p>
+        <ul>
+          <li>Currently learning: Advanced Web Development (HTML, CSS, JavaScript), Database Management, Java & C++</li>
+          <li>Looking for internship opportunities and projects to apply my skills</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Education</h5>
+        <p>BCA Graduate</p>
+        <h5>Contact</h5>
+        <p>Email: <a href="mailto:EMAIL_ADDRESS">aditierande59@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-4 bg-light">
+  <div class="container">
+    <h3>Skills</h3>
+    <div class="d-flex flex-wrap mt-2">
+      <span class="skill-badge">HTML</span>
+      <span class="skill-badge">CSS</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Bootstrap</span>
+      <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">C++</span>
+      <span class="skill-badge">Git</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<div class="col-md-6">
+  <div class="card card-project p-3 h-100">
+    <div class="card-body">
+      <h5 class="card-title">Currently Working On: Web Development Project</h5>
+      <p class="card-text">
+        I am building a responsive web application as part of my learning journey. 
+        This project focuses on improving my front-end development skills 
+        (HTML, CSS, JavaScript, Bootstrap) and will soon include database integration.
+      </p>
+      <span class="badge bg-primary">In Progress</span>
+    </div>
+  </div>
+</div>
+
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 bg-white">
+  <div class="container">
+    <h3>Contact Me</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <form onsubmit="sendMail(event)">
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input class="form-control" id="cname" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="cemail" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" id="cmsg" rows="4" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send (opens email)</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>Connect</h5>
+        <p>LinkedIn: <a href="www.linkedin.com/in/aditi-erande-ab0778244
+
+" target="_blank">www.linkedin.com/in/aditi-erande-ab0778244
+</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container text-center">
+    <small>© AditiErande — Built with HTML, Bootstrap. Hosted on GitHub Pages.</small>
+  </div>
+</footer>
+
+<script>
+  function sendMail(e){
+    e.preventDefault();
+    const name=document.getElementById('cname').value;
+    const email=document.getElementById('cemail').value;
+    const msg=document.getElementById('cmsg').value;
+    const subject = encodeURIComponent('Portfolio message from '+name);
+    const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg);
+    const mailto = 'mailto:EMAIL_ADDRESS?subject='+subject+'&body='+body;
+    window.location.href = mailto;
+  }
+</script>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
